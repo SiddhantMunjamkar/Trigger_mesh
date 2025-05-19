@@ -1,0 +1,19 @@
+@import "tailwindcss";
+/* Add custom color as a CSS variable */
+:root {
+  --amber-700: #ff4f00;
+  --slate-100: #ebe9df;
+}
+
+/* Optional: create utility classes manually */
+.bg-amber-700 {
+  background-color: var(--amber-700);
+}
+
+.bg-slate-100 {
+  background-color: var(--slate-100);
+}
+
+body{
+  background-color: #fffdf9;
+}
