@@ -1,5 +1,5 @@
-import { Kafka, Partitioners } from "kafkajs";
-import { PrismaClient } from "@prisma/client";
+import { Kafka } from "kafkajs";
+
 
 const TOPIC_NAME = "zap-events";
 
