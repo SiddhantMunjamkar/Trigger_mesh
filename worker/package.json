@@ -11,6 +11,10 @@
   "license": "ISC",
   "dependencies": {
     "@prisma/client": "^6.8.2",
-    "kafkajs": "^2.2.4"
+    "kafkajs": "^2.2.4",
+    "nodemailer": "^7.0.3"
+  },
+  "devDependencies": {
+    "@types/nodemailer": "^6.4.17"
   }
 }
